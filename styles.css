@@ -1,0 +1,662 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Sora", sans-serif;
+  background-color: #181e25;
+  color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  margin: 50px auto 0 auto;
+  padding: 0 2%;
+}
+
+.cor__azul {
+  color: #00a8dd;
+}
+
+.jornada__python {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-bottom: 7px;
+}
+
+.logo img {
+  width: 45px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.descricao__jornada h1 {
+  font-size: 39.8px;
+  text-transform: uppercase;
+}
+
+.descricao__jornada > span {
+  font-size: 23px;
+}
+
+.descricao__jornada p {
+  font-size: 19.2px;
+  padding: 20px 0;
+}
+
+.card__certificados {
+  display: flex;
+}
+
+.certificado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.img__icons img {
+  margin-right: 12px;
+}
+
+.descricao__certificado {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.button img {
+  width: 17px;
+  margin-right: 5px;
+}
+
+.button button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #00a8dd;
+  font-size: 17px;
+  margin-top: 25px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 13px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 1.2px;
+
+  box-shadow: 4px 2px 1px 0px rgba(0, 78, 105, 0.68);
+  -webkit-box-shadow: 4px 2px 1px 0px rgba(0, 78, 105, 0.68);
+  -moz-box-shadow: 4px 2px 1px 0px rgba(0, 78, 105, 0.68);
+}
+
+.button a:hover {
+    transform: translateY(1px);
+}
+
+/* ========= fim da section jornada__python ======== */
+
+.aulas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 10px;
+}
+
+.card__aula {
+  background-color: #2b323c;
+  width: 43%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card__aula h3 {
+  font-size: 23px;
+  padding-top: 7px;
+}
+
+.card__aula span {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.descricao__aula {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3px;
+}
+
+.checked__img {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.checked__img p {
+  margin-left: 5px;
+}
+
+/* ======== fim da section aulas ======== */
+
+.informacao {
+  width: 100%;
+  margin: 60px 0;
+  background-color: #2b323c;
+}
+
+.container__informacao {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.informacao p {
+  text-align: justify;
+  font-size: 12px;
+  padding: 25px 0;
+  color: #a5a5a5;
+}
+
+/* ====== fim da section informacao ======= */
+.titulo__inscricao {
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto 25px auto;
+  padding: 0 2%;
+}
+
+.titulo__inscricao h2 {
+  font-size: 26px;
+  font-weight: 400;
+}
+.inscricao {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+
+  padding: 0 5%;
+  margin: 0 auto;
+  background-color: #2b323c;
+  border-radius: 8px;
+}
+
+.passos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  padding: 20px 30px;
+  text-align: center;
+  width: 33%;
+}
+
+.passos span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.passos p {
+  font-size: 14px;
+}
+
+/* ==== fim da section inscricao ====== */
+
+.detalhes {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  margin: 60px auto 0 auto;
+}
+
+.sobre {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #2b323c;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sobre h3 {
+  padding: 25px 0;
+  font-weight: 600;
+}
+
+.educador {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #20252c;
+}
+
+.educador img {
+  margin-right: 20px;
+}
+
+.nome__educador {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nome__educador span:nth-child(1) {
+  font-size: 20px;
+}
+
+.nome__educador span:nth-child(2) {
+  font-size: 18px;
+}
+
+.sobre__educador {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 35px;
+}
+
+.sobre__educador p {
+  text-align: center;
+  font-size: 18.2px;
+}
+
+.container__detalhes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.detalhes__python {
+  position: absolute;
+  top: 5%;
+  background-color: #2b323c;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.primeiros__passos {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.primeiros__passos div:nth-child(1) {
+  width: 50%;
+  flex: 1;
+  margin-right: 15px;
+}
+
+.primeiros__passos h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.requisitos {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.requisitos span {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.garanta__vaga {
+  position: absolute;
+  bottom: 5%;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(0, 89, 130);
+  background: linear-gradient(
+    25deg,
+    rgba(0, 89, 130, 1) 21%,
+    rgba(0, 212, 255, 1) 54%
+  );
+  border-radius: 8px;
+}
+
+.garanta__vaga div:nth-child(1) {
+  width: 30%;
+  flex: 1;
+}
+
+.garanta__vaga div:nth-child(1) h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.button__vaga {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.button__vaga button {
+  font-size: 17px;
+  background-color: #2b323c;
+  color: #fff;
+
+  -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button__vaga button:hover {
+    transform: translateY(1px);
+}
+
+.button__vaga i {
+  margin-left: 3px;
+}
+
+/* ===== fim da section detalhes ====== */
+
+footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  margin-top: 60px;
+  padding: 30px 2%;
+  background-color: #2b323c;
+}
+
+footer img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+footer span:nth-child(1) {
+  margin-left: 10px;
+}
+
+footer span:nth-child(2) {
+  margin-left: 10px;
+}
+
+/* ========== Responsivos =========== */
+
+@media screen and (max-width: 980px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .jornada__python {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .descricao__jornada h1 {
+    font-size: 25.8px;
+    text-transform: uppercase;
+  }
+
+  .descricao__jornada > span {
+    font-size: 18px;
+  }
+
+  .descricao__jornada p {
+    font-size: 14px;
+    padding: 0 5%;
+    margin: 20px 0;
+  }
+
+  .certificado {
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .descricao__certificado {
+    font-size: 10px;
+  }
+
+  .button img {
+    width: 17px;
+    margin-right: 5px;
+  }
+
+  .button button {
+    margin: 20px auto;
+    font-size: 14px;
+  }
+
+  .aulas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .card__aula {
+    background-color: #2b323c;
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .card__aula h3 {
+    font-size: 20px;
+    padding-top: 7px;
+  }
+
+  .card__aula span {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .descricao__aula p {
+    font-size: 14px;
+  }
+
+  .container__informacao {
+    width: 100%;
+    padding: 0 3%;
+  }
+
+  .informacao p {
+    text-align: center;
+    font-size: 12px;
+    padding: 25px 3%;
+    color: #a5a5a5;
+  }
+
+  .inscricao {
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2%;
+  }
+
+  .passos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre {
+    width: 80%;
+  }
+
+  .sobre h3 {
+    font-size: 16px;
+  }
+
+  .container__detalhes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .educador {
+    padding: 10px 2%;
+  }
+
+  .educador img {
+    margin-right: 10px;
+  }
+
+  .nome__educador span:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .nome__educador span:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .sobre__educador {
+    padding: 15px 15px;
+  }
+
+  .sobre__educador p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .detalhes__python {
+    position: relative;
+  }
+
+  .requisitos {
+    width: 100%;
+  }
+
+  .requisitos li {
+    font-size: 15px;
+  }
+
+  .garanta__vaga {
+    position: relative;
+    margin-top: 15px;
+  }
+
+  .garanta__vaga div:nth-child(1) h3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .button__vaga {
+    width: 65%;
+    margin-left: 10px;
+  }
+
+  .button__vaga button {
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  .button__vaga i {
+    font-size: 15px;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+  }
+
+  footer img {
+    width: 35px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  footer span {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .caracter {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .certificado {
+    gap: 1px;
+  }
+  .card__aula {
+    width: 80%;
+  }
+
+  .card__aula h3 {
+    font-size: 20px;
+    padding-top: 7px;
+  }
+
+  .card__aula span {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .descricao__aula p {
+    font-size: 14px;
+  }
+}

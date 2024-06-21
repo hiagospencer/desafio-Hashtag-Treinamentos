@@ -1,0 +1,61 @@
+Fonte:
+
+Sora
+
+Tamanhos (px): 13.3, 16, 19.2, 23, 39.8
+
+
+Tamanho container: 1000px
+
+
+Cores:
+
+Fonte:
+Branco - #fff
+Azul - #00a8dd
+Cinza - #a5a5a5
+
+Fundo:
+
+Cinza escuro - #10151b
+Cinza - #181e25
+Cinza claro - #2b323c
+Azul escuro - #005982
+Azul claro - #00b1d3
+
+Botão:
+
+Azul da fonte
+Cinza claro
+
+Borda botão
+
+Azul - #004e69
+Preto - #000
+
+
+Imagens:
+
+Logo Hashtag Programação: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/61f449266c92e6cb7fe98a43_LOGO%202%20(FINAL)%20V2%20(2).png
+
+Logo Hashtag Treinamentos: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/61b9f085f608c40d5a8b97f9_logo%20hash%20quadrada%20h%20(1).webp
+
+Lira: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/6583228e56e2f1a2c1e9c994_foto%20lira.webp
+
+Logo Python: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/658324a96e401a72757faaf9_python%202.webp
+
+Check: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/62cef75c0262284af718645d_checked.webp
+
+Python Dev: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831d810464d1ce5365d137_website.webp
+
+Python IA: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831d81072e98cf84d4ba59_brain.webp
+
+Python Insights: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831d81e7faba0658ebb238_viewer.webp
+
+Power Up: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831d811306e77ecce23431_chatbot.webp
+
+Wifi: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831a7cec2e1f2537fe339e_wireless-symbol.webp
+
+Relógio: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831a7c351b218a909adf1a_clock.webp
+
+Certificado: https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65831a7cc73362b42a30234a_certificate%20(1).webp
